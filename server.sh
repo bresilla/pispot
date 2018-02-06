@@ -1,4 +1,3 @@
-sudo apt-get update
 sudo apt-get install hostapd udhcpd -y
 
 d=/etc/hostapd/hostapd.conf && sudo rm -f $d && sudo touch $d

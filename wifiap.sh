@@ -1,4 +1,3 @@
-sudo apt-get update
 sudo apt-get install iptables iw iproute2 -y
 sudo apt-get install hostapd udhcpd -y
 

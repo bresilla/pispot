@@ -1,4 +1,3 @@
-sudo apt-get update
 sudo apt-get install iptables iw iproute2 -y
 
 a=/etc/wpa_supplicant/wpa_supplicant.conf && sudo rm -f $a && sudo touch $a
