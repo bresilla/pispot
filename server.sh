@@ -1,7 +1,7 @@
 sudo apt-get install hostapd udhcpd -y
 
 d=/etc/hostapd/hostapd.conf && sudo rm -f $d && sudo touch $d
-e=/usr/local/bin/hostapdstart && sudo rm -f $e && sudo touch $e sudo chmod 775 $e
+e=/usr/local/bin/hostapdstart && sudo rm -f $e && sudo touch $e && sudo chmod 775 $e
 f=/etc/dnsmasq.conf && sudo rm -f $f && sudo touch $f
 
 sudo echo "DAEMON_CONF='/etc/hostapd/hostapd.conf'" >>  /etc/default/hostapd
